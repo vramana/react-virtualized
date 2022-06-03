@@ -12,6 +12,6 @@ module.exports = {
     '!source/TestUtils.js',
     '!**/*.example.js',
   ],
-  testRegex: '.(jest|e2e|ssr).js$',
+  testRegex: '.(jest|ssr).js$',
   verbose: true,
 };
