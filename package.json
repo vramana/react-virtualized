@@ -25,7 +25,7 @@
     "clean:demo": "rimraf build",
     "clean:es": "rimraf dist/es",
     "clean:umd": "rimraf dist/umd",
-    "deploy": "",
+    "deploy": "echo 0",
     "lint": "eslint 'source/**/*.js'",
     "typecheck": "flow check",
     "prettier": "prettier --write '{playground,source,docs}/**/*.{js,md}'",
