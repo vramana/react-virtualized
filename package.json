@@ -22,7 +22,7 @@
     "clean:demo": "rimraf build",
     "clean:es": "rimraf dist/es",
     "clean:umd": "rimraf dist/umd",
-    "deploy": "gh-pages -d build",
+    "deploy": "",
     "lint": "eslint 'source/**/*.js'",
     "typecheck": "flow check",
     "prettier": "prettier --write '{playground,source,docs}/**/*.{js,md}'",
